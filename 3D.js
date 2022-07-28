@@ -21,12 +21,12 @@ container.addEventListener('mouseover', (e) => {
 container.addEventListener('mouseenter', (e) => {
     card.style.transition = '.5s ease-in-out';
     //popout
-    title.style.transform = 'translateZ(300px)';
-    tetle.style.transform = 'translateZ(500px)';
-    sneaker.style.transform = 'translateZ(800px) rotateY(180deg) rotateZ(15deg)';
+    title.style.transform = 'translateZ(200px)';
+    tetle.style.transform = 'translateZ(150px)';
+    sneaker.style.transform = 'translateZ(300px) rotateY(180deg) rotateZ(15deg)';
     // circle.style.transform = 'translateZ(200px) rotateY(180deg)';
-    description.style.transform = "translateZ(150px)"
-    sizes.style.transform = "translateZ(100px)"
+    description.style.transform = "translateZ(100px)";
+    sizes.style.transform = "translateZ(75px)";
 });
 
 //Animate Out
@@ -38,6 +38,6 @@ container.addEventListener('mouseleave', (e) => {
     tetle.style.transform = 'translateZ(0px)';
     sneaker.style.transform = 'translateZ(0px) rotateY(0deg) rotateZ(0deg)';
     // circle.style.transform = 'translateZ(0px) rotateZ(0deg)';
-    description.style.transform = "translateZ(0px)"
-    sizes.style.transform = "translateZ(0px)"
+    description.style.transform = "translateZ(0px)";
+    sizes.style.transform = "translateZ(0px)";
 });
